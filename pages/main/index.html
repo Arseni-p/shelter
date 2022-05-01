@@ -6,16 +6,82 @@
     <title lang="ru">Shelter</title>
     <link rel="stylesheet" href="styles.css">
   </head>
-  <body>
-    <header>
-      <h1>Shelter</h1>
-
+  <body class="main-body">
+    <header class="header">
+      <nav class="navigation__section">
+        <div class="navigation__content">
+          <a href="main.html" class="logo__main-page">
+            <h1 class="logo__title">Cozy House</h1>
+            <p class="logo__subtitle">Shelter for pets in Boston</p>
+          </a>
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a href="#" class="menu__link menu__link--current">About the shelter</a>
+            </li>
+            <li class="menu__item">
+              <a href="../pets/index.html" class="menu__link">Our pets</a>
+            </li>
+            <li class="menu__item">
+              <a href="#help-shelter" class="menu__link">Help the shelter</a>
+            </li>
+            <li class="menu__item">
+              <a href="#contacts" class="menu__link">Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
-    <main>
+    <main class="main">
+      <section class="notonly__wrapper">
+        <div class="notonly__content">
+          <div class="notonly__text--wrapper">
+            <h2 class="notonly__title">Not only people need a house</h2>
+            <p class="notonly__text">We offer to give a chance to a little and nice puppy with an extremely wide and open heart. He or she will love you more than anybody else in the world, you will see!</p>
+            <div class="notonly__btn--wrapper">
+              <button class="notonly__btn">Make a friend</button>
+            </div>
+          </div>
+          <div class="notonly__image--wrapper">
+            <img class="notonly__image" src="../../assets/images/notonly-dog.png" alt="dog-image">
+          </div>
+        </div>
+      </section>
+      <section class="about__wrapper">
+        <div class="about__content">
+          <div class="about__image--wrapper">
+            <img src="../../assets/images/about-pets.png" alt="about-pets">
+          </div>
+          <div class="about__text-content">
+            <h2 class="about__title">About the shelter “Cozy House”</h2>
+            <p class="about__text">Currently we have 121 dogs and 342 cats on our hands and statistics show that only 20% of them will find a family. The others will continue to live with us and will be waiting for a lucky chance to become dearly loved.</p>
+            <p class="about__text">We feed our wards with the best food and make sure that they do not get sick, feel comfortable (including psychologically) and well. We are supported by 87 volunteers and 28 employees of various skill levels. About 12% of the animals are taken by the shelter staff. Taking care of the animals, they become attached to the pets and would hardly ever leave them alone.</p>
+          </div>
+        </div>
+      </section>
+      <section id="help-shelter" class="help-shelter">
+        <h2>Helper</h2>
+      </section>
 
     </main>
-    <footer>
+    <footer id="contacts" class="footer">
 
     </footer>
   </body>
 </html>
+
+<!-- 
+  
+    Our Friends block
+    - Four-column layout.
+    - Pet cards should be interactive when hovering over any area of the card. Hovering over a card changes the cursor, highlights the Learn more button, and changes the background.
+    - It is not necessary to open a modal window when clicking at this stage.
+    - Pagination should be clickable on available buttons. This means that from position (1) we cannot go further to the left, i.e. to the smaller side. Gray buttons must have the attribute disabled, data-disabled or a modifier class.
+
+    Footer (<footer> contains contacts, address and image):
+    - Clicking on an email or its icon should open the mail service.
+    - Clicking on the phone or its icon should open dialing.
+    - Clicking on a location should open a page with google maps in a separate window with any location you choose.
+    - The image of the dog, address and contacts are different blocks that should not overlap.
+    - The background of the block can be made with a gradient.
+
+ -->
