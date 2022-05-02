@@ -390,12 +390,12 @@ img {
 }
 
 .pets__btn--left:after {
-  left: calc(50% - 10px);
+  left: calc(50% - 12px);
   border-right: 4px solid var(--color-dark-3xl);
 }
 
 .pets__btn--right:after {
-  right: calc(50% - 10px);
+  right: calc(50% - 12px);
   border-left: 4px solid var(--color-dark-3xl);
 }
 
@@ -423,6 +423,7 @@ img {
 .help__title {
   margin: 0 auto 60px;
   text-align: center;
+  color: var(--color-dark-l);
 }
 
 .help__list {
@@ -453,6 +454,7 @@ img {
 
 .help__item--title {
   text-align: center;
+  color: var(--color-dark-l);
 }
 
 /*DONATION*/
