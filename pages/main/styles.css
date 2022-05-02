@@ -215,6 +215,10 @@ img {
   height: 52px;
 }
 
+.notonly__btn {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .notonly__image--wrapper {
   display: flex;
 }
