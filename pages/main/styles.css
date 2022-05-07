@@ -308,6 +308,7 @@ img {
   width: 270px;
   background-color: var(--color-light-s);
   border-radius: 9px;
+  overflow: hidden;
 }
 
 .pets__item:hover {
